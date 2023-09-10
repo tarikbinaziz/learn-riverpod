@@ -4,6 +4,7 @@ import 'package:learn_riverpod/state%20notifire%20provider.dart';
 import 'package:learn_riverpod/state%20provider.dart';
 import 'package:learn_riverpod/stream%20provider.dart';
 
+import 'api_services_data.dart';
 import 'change notifire provider.dart';
 import 'future provider.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends ConsumerWidget {
   Widget build(BuildContext context,WidgetRef ref) {
     return ProviderScope(
       child: MaterialApp(
-        home:  ChangeNotifireProviderScreen(),
+        home:  ApiData(),
       ),
     );
   }
